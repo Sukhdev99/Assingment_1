@@ -39,7 +39,7 @@ public class Main {
                 double y = input.nextDouble();
 
             }
-   
+
         }
 
 
