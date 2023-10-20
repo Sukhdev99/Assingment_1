@@ -13,7 +13,7 @@ public class Main {
             // calculating distance between the 2 points that user has added.
         }
     }
-    class Triangle{ // class for triangles
+    class Triangle { // class for triangles
         coorditanes[] vertices;
 
         Triangle(coorditanes[] vertices) { // this method has constructor for vertices of triangle
@@ -24,7 +24,23 @@ public class Main {
     }
     public static void main(String[] args) {
     Scanner input = new Scanner(System.in);
+        System.out.print("Enter the number of triangles:");
+        int number_of_triangles = input.nextInt(); // number of triangles
 
+        Triangle[] t = new Triangle[number_of_triangles];
+
+        for (int i = 0; i < number_of_triangles; i++) { // this loop will ask the user for coordinates x and y for 3 sides.
+            coorditanes[] vertices = new coorditanes[3];
+            for (int j = 0; j < 3; j++) {
+                System.out.println("Construction of a new point");
+                System.out.print("Please enter x: ");
+                double x = input.nextDouble();
+                System.out.print("Please enter y: ");
+                double y = input.nextDouble();
+
+            }
+   
+        }
 
 
     }
