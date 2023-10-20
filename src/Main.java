@@ -13,7 +13,7 @@ public class Main {
             // calculating distance between the 2 points that user has added.
         }
     }
-    class Triangle { // class for triangles
+    class Triangle { // class for triangle
         coorditanes[] vertices;
 
         Triangle(coorditanes[] vertices) { // this method has constructor for vertices of triangle
